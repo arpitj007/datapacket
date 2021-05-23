@@ -1,0 +1,13 @@
+.menubar {
+  background: var(--secondary-color);
+  padding: 15px 12em;
+}
+
+.menubar-logo {
+  max-height: 30px;
+}
+
+.menubar-left {
+  display: flex;
+  align-items: center;
+}

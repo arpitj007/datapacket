@@ -1,0 +1,7 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-color);
+  color: var(--text-color-primary);
+  padding: var(--relative-padding);
+}
