@@ -1,0 +1,32 @@
+.banner-home {
+  padding: var(--relative-padding);
+  padding-bottom: 2em;
+  display: flex;
+}
+
+.banner-full {
+  background: var(--secondary-color);
+  padding: 2em 0;
+}
+
+.banner-heading {
+  color: var(--text-color-primary);
+  font-weight: var(--heading-font-weight);
+  font-size: var(--heading-font-size);
+}
+
+.banner-home-left {
+  max-width: 50%;
+}
+.banner-home-right {
+  padding-left: 20em;
+}
+.world-map {
+  width: 100%;
+}
+
+.banner-text {
+  color: var(--text-color-primary);
+  font-weight: var(--heading-text-font-weight);
+  font-size: var(--heading-text-font-size);
+}

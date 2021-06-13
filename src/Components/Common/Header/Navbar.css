@@ -5,3 +5,22 @@
   color: var(--text-color-primary);
   padding: var(--relative-padding);
 }
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-middle {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.location-select {
+  border: 2px solid var(--tirtuary-color);
+  margin: 1em;
+  background: transparent;
+  color: var(--text-color-primary);
+  padding: 0.5em;
+}
+
+.location-option {
+  background: transparent;
+  color: var(--tirtuary-color);
+}
+
+.location-selector {
+  position: absolute;
+}

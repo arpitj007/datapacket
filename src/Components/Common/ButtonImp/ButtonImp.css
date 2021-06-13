@@ -1,0 +1,43 @@
+.button-wrapper {
+  display: grid;
+  align-items: center;
+}
+
+.button-atag {
+  display: block;
+  width: max-content;
+  padding: 0 0.5em;
+  height: 2.5em;
+  line-height: 35px;
+  text-decoration: none;
+  color: var(--text-color-primary);
+  border: 2px solid var(--tirtuary-color);
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.button-span {
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.button-atag:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--tirtuary-color);
+  transition: all 0.15s;
+}
+
+.button-atag:hover {
+  color: #fff;
+}
+
+.button-atag:hover:after {
+  width: 100%;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonImp from "../ButtonImp/ButtonImp";
 import MenuItem from "./MenuItem";
 import "./MenuItems.css";
 function MenuItems() {
@@ -9,6 +10,7 @@ function MenuItems() {
       <MenuItem name="Locations" />
       <MenuItem name="Company" />
       <MenuItem name="Case Studies" />
+      <ButtonImp text="Get started" />
     </div>
   );
 }
