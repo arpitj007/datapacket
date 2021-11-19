@@ -5,8 +5,8 @@ function Team() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="body-team">
-      <h2 className="body-team-heading">Get to know our teams</h2>
-      <p className="body-team-text">130 members and counting</p>
+      <h2 className="heading body-team-heading">Get to know our teams</h2>
+      <p className="heading-text body-team-text">130 members and counting</p>
       <div className="body-team-items">
         <div className="body-team-left">
           {teamText.map((item, index) => {

@@ -1,0 +1,7 @@
+.MuiTab-wrapper {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.MuiBox-root {
+  padding: inherit !important;
+}

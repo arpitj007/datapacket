@@ -4,8 +4,10 @@ import ButtonImp from "../../Common/ButtonImp/ButtonImp";
 function DedicatedServer() {
   return (
     <div className="home-dedicated-server">
-      <h2 className="home-dedicated-server-heading">Dedicated Server</h2>
-      <p className="home-dedicated-server-text">
+      <h2 className="heading home-dedicated-server-heading">
+        Dedicated Server
+      </h2>
+      <p className="heading-text home-dedicated-server-text">
         Fully customizable bare-metal servers with fast provisioning times.
       </p>
       <div className="home-dedicated-server-data">

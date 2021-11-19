@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ButtonImp.css";
 function ButtonImp(props) {
-  const style = { color: props.color };
+  const { text, color, to } = props;
+  const style = { color: color };
   return (
     <div className="button-wrapper">
-      <a className="button-atag" href="/">
+      <Link className="button-atag" to={to}>
         <span className="button-span" style={{ style }}>
-          {props.text}
+          {text}
         </span>
-      </a>
+      </Link>
     </div>
   );
 }

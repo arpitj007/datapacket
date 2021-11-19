@@ -4,8 +4,8 @@ import "./body.css";
 function GlobalNetwork() {
   return (
     <div className="global-network">
-      <h2 className="heading-global">60 Tbps+ global network</h2>
-      <p className="global-heading-text">
+      <h2 className="heading heading-global">60 Tbps+ global network</h2>
+      <p className="heading-text global-heading-text">
         DataPacket’s global network is designed and operated to ensure
         sustainably low latencies, zero packet loss, and no saturation –
         especially during peak times.

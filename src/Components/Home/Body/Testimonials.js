@@ -26,18 +26,13 @@ function Testimonials() {
   return (
     <div className="testimonials">
       <div className="testimonial-container">
-        <>
-          <button className="testimonial-button" onClick={handleTopScroll}>
-            <IoIosArrowUp />
-          </button>
-        </>
+        <button className="testimonial-button" onClick={handleTopScroll}>
+          <IoIosArrowUp />
+        </button>
+
         {testimonialText.map((t, i) => {
-          let style;
-          if (key === i) {
-            style = { display: "inline-block" };
-          } else {
-            style = { display: "none" };
-          }
+          const style =
+            key === i ? { display: "inline-block" } : { display: "none" };
           return (
             <div key={i} className="testimonial" style={style}>
               <div className="testimonail-top">
@@ -58,11 +53,9 @@ function Testimonials() {
             </div>
           );
         })}
-        <>
-          <button className="testimonial-button" onClick={handleBottomScroll}>
-            <IoIosArrowDown />
-          </button>
-        </>
+        <button className="testimonial-button" onClick={handleBottomScroll}>
+          <IoIosArrowDown />
+        </button>
       </div>
       <div className="testimonial-sep">
         <div className="testimonial-separator"></div>

@@ -7,7 +7,7 @@ function MenuItems() {
     <div className="menu-items-list">
       <MenuItem name="Pricing" />
       <MenuItem name="Why 100GBPS" />
-      <MenuItem name="Locations" />
+      <MenuItem isDropdown={true} name="Locations" />
       <MenuItem name="Company" />
       <MenuItem name="Case Studies" />
       <ButtonImp text="Get started" />

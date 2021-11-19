@@ -1,3 +1,4 @@
+@import "../../Common/common.css";
 .banner-home {
   padding: var(--relative-padding);
   padding-bottom: 2em;
